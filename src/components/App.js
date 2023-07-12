@@ -11,14 +11,14 @@ const App = () => {
         {/* Do not remove the main div */}
         <div className="parent"> 
           Parent Component
-          <div>Child Component</div>
+          <div>Child Component
           <button onClick={() => setShowModal(true)}>Show Modal</button>
           {showModal ? <div>
             Modal Content
             <p>This is modal content</p>
           </div> : ""}
         </div>
-
+        </div>
     </div>
   )
 }
