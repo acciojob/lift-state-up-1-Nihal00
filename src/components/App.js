@@ -9,15 +9,8 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <div className="parent"> 
-          Parent Component
-          <div>Child Component
-          <button onClick={() => setShowModal(true)}>Show Modal</button>
-          {showModal ? <div>
-            Modal Content
-            <p>This is modal content</p>
-          </div> : ""}
-        </div>
+        <div className="parent">
+          <h1>Parent Component</h1>
         </div>
     </div>
   )
